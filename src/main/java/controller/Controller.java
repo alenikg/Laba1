@@ -119,6 +119,7 @@ public class Controller {
         this.addCovMatrixXlssList(xlsx);
         xlsx.write(new FileOutputStream(file));
         xlsx.close();
+        System.exit(0);
     }
     
     private void addCovMatrixXlssList(Workbook xlsx) {
